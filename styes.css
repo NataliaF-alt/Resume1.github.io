@@ -1,1 +1,40 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    .resume {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .section h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      font-size: 20px;
+      color: #444;
+    }
+    .contact, .education, .experience, .skills {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .job-title {
+      font-weight: bold;
+    }
+    .job-details {
+      margin-left: 15px;
+    }
+    ul {
+      margin: 5px 0 0 20px;
+    }
+
 
